@@ -129,6 +129,7 @@ dist
 .pnp.*
 .yarn/*
 !.yarn/patches
+<<<<<<< HEAD
 # Node dependencies
 node_modules/
 backend/node_modules/
@@ -150,6 +151,8 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
+=======
+>>>>>>> 5b5e01540dd6f6d1b96a5bb059619c2f09fae75b
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
@@ -158,6 +161,7 @@ Thumbs.db
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+<<<<<<< HEAD
 # dependencies
 node_modules/
 npm-debug.log*
@@ -183,3 +187,5 @@ build/
 
 # misc
 *.log
+=======
+>>>>>>> 5b5e01540dd6f6d1b96a5bb059619c2f09fae75b
